@@ -4,6 +4,7 @@
 
 * Information not publicly available stays private
 * Never discuss symbols or code unless you can already find it on the Internet
+* There may well be licensing implications to consider with code
 
 ## Ideas for how where AI may help in offensive activities
 
