@@ -6,6 +6,15 @@
 * Never discuss symbols or code unless you can already find it on the Internet
 * There may well be licensing implications to consider with code
 
+## AI will find all the bugs?
+
+1) Is the source code available - LLMs understand the statistical relelation ship between words aka keywords and function calls
+2) Is the binary available - LLMs can do the same here (although they may do better if you can decompile it)
+3) Have there been many bugs in the past, have they been well documented with reference to internal architecture and APIs - LLMs may well be able to speculate on likely root causes
+4) Is the software well documented - LLMs may be able to extrapolate likely attack surfaces and make correlations based on the attack surface and related CWEs
+5) Is the service often found on the Internet - popular, open protocols find themselves well documentd which may give an LLM a leg up
+6) The rest...
+
 ## Ideas for how where AI may help in offensive activities
 
 | Sofware type                    | Threat models | OSINT | Red team | Vulnerability scans | Source code reviews | Build reviews | Attack surface | Application testing | Reverse engineering |
