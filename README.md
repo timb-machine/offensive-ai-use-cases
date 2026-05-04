@@ -29,7 +29,7 @@
 ### Threat models
 
 * Asking about public information should be fine
-* Avoid custome specifics beyond what is public
+* Avoid customer specifics beyond what is public
 
 ### OSINT
 
