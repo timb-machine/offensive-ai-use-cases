@@ -7,6 +7,7 @@
 * There may well be licensing implications to consider with code
 * Lab access is critical
 * Understanding of threat model and tust boundaries needs to be part of the input
+* Cost should be a consideration
 
 ## AI will find all the bugs?
 
