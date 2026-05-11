@@ -9,6 +9,12 @@
 * Understanding of threat model and tust boundaries needs to be part of the input
 * Cost should be a consideration
 
+## Is it hard to find bugs at scale?
+
+No.
+
+(See https://github.com/timb-machine/code-search)
+
 ## AI will find all the bugs?
 
 1) Is the source code available - LLMs understand the statistical relelation ship between words aka keywords and function calls
