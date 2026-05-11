@@ -37,15 +37,21 @@ No.
 
 ### Threat models
 
+Constructing hypothetical attacks.
+
 * Asking about public information should be fine
 * Avoid customer specifics beyond what is public
 
 ### OSINT
 
+Searching the deep/dark web for sensitive information.
+
 * Asking about public information should be fine
 * Avoid customer specifics beyond what is public
 
 ### Red team
+
+Testing for resiliece weaknesses and visibility gaps in a threat-centric fashion.
 
 * Asking about public information should be fine
 * Using an AI to develop a tool should be fine as long as you're asking it only to build off public information
@@ -53,15 +59,21 @@ No.
 
 ### Vulnerability scans
 
+Port scans and banner grabs, mapped to known vulnerabilities.
+
 * Version meta data should be okay
 * Using an AI to develop a tool should be fine as long as you're asking it only to build off public information
 * Avoid customer specifics beyond what is public
 
 ### Source code reviews
 
+Analysing the source code for implementation flaws.
+
 * Putting any not-public code or other artefacts into a LLM is problematic
 
 ### Build reviews
+
+Analysing configurations for hygiene and good practice hardening,
 
 * Asking about public information should be fine
 * Using an AI to develop a tool should be fine as long as you're asking it only to build off public information
@@ -69,16 +81,22 @@ No.
 
 ### Attack surface
 
+Documenting exposed services.
+
 * Asking about public information should be fine
 * Using an AI to develop a tool should be fine as long as you're asking it only to build off public information
 * Avoid customer specifics beyond what is public
 
 ### Application testing
 
+Testing applications for commonly exploited bug classes and misuse cases.
+
 * Asking about public information should be fine
 * Using an AI to develop a tool should be fine as long as you're asking it only to build off public information
 * Putting any not-public code or other artefacts into a LLM is problematic
 
 ### Reverse engineering
+
+Converting binaries back into source code in the persuit of implementation flaws.
 
 * Putting any not-public code or other artefacts into a LLM is problematic
