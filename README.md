@@ -27,7 +27,7 @@ No.
 ### Qualifying efficacy
 
 1) Does the LLM know why an attacker might attack the software and cite real examples?
-    1) What is the externally reachable attack surface of this software?
+    1) What is the externally reachable attack surface?
     2) What are the major trust boundaries and privilege transitions in the system?
     3) What are the most security-sensitive execution paths?
     4) Which components are most likely to enable RCE, privilege escalation, or data exfiltration?
