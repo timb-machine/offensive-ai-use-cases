@@ -59,6 +59,46 @@ No.
 | Closed source (common)          | X             | X     |          | X                   |                     | X             | X              |                     |                     |
 | Closed source (internal)        | X             |       |          |                     |                     | X             |                |                     |                     |
 
+## Tooling
+
+AI in general and LLMs in particular are good at making new from old by inference. However one weakness is that LLMs will often generate new code to solve old problems. Whilst that means that new edge cases can be found and tested, the tooling by an LLM may well not be as robust or as well tested as an existing tool in the right hands. Think about all the testing and resultant features in nmap over the last decades and then ask an LLM about portscanning and see what it comes up with:
+
+```
+import socket
+from concurrent.futures import ThreadPoolExecutor
+
+TARGET = "127.0.0.1"   # Change to target IP or hostname
+PORT_RANGE = range(1, 1025)  # Scan ports 1–1024
+TIMEOUT = 1
+
+
+def scan_port(port):
+    try:
+        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
+            sock.settimeout(TIMEOUT)
+            result = sock.connect_ex((TARGET, port))
+
+            if result == 0:
+                print(f"[OPEN] Port {port}")
+    except Exception as e:
+        print(f"[ERROR] Port {port}: {e}")
+
+
+def main():
+    print(f"Scanning {TARGET}...")
+
+    with ThreadPoolExecutor(max_workers=100) as executor:
+        executor.map(scan_port, PORT_RANGE)
+
+    print("Scan complete.")
+
+
+if __name__ == "__main__":
+    main()
+```
+
+My prompt was vague but the point remains, that code will obly scan a subset of ports and it's onlu capable of TCP scans. Furthermore, it doesn't have any capacity to gather any information about what the open ports send. You'd need to write a lot more prompts to get nmap and even more to have the LLM provide sensible guidance on when and how to run it and against what.
+
 ## Testing types
 
 ### Threat models
