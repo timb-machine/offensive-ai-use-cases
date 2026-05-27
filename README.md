@@ -11,7 +11,7 @@
 
 ## TLDR
 
-We can probably distill this down to how/if/when LLMs can get access to a) the binary b) the source code
+We can probably distill this down to how/if/when LLMs can get access to a) the binary b) the source code.
 
 ## Is it hard to find bugs at scale?
 
