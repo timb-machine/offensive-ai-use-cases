@@ -11,7 +11,7 @@
 
 ## TLDR
 
-We can probably distill this down to whether there is something in the exposed attack surface that's also in the model and how much information the model also contains to construct a valid chain. For this, access to a) the binary b) the source code massively helps.
+We can probably distill this down to whether there is something in the exposed attack surface that's also in the model and how much information the LLM also contains to construct a valid chain. For this, access to a) the binary b) the source code massively helps.
 
 ## Is it hard to find bugs at scale?
 
