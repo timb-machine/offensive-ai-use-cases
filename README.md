@@ -97,7 +97,7 @@ if __name__ == "__main__":
     main()
 ```
 
-My prompt was vague but the point remains, that code will obly scan a subset of ports and it's onlu capable of TCP scans. Furthermore, it doesn't have any capacity to gather any information about what the open ports send. You'd need to write a lot more prompts to get nmap and even more to have the LLM provide sensible guidance on when and how to run it and against what.
+My prompt was vague but the point remains, that code will obly scan a subset of ports and it's only capable of TCP scans. Furthermore, it doesn't have any capacity to gather any information about what the open ports send. You'd need to write a lot more prompts to get nmap and even more to have the LLM provide sensible guidance on when and how to run it and against what.
 
 ## Testing types
 
