@@ -5,6 +5,7 @@
 * Information not publicly available stays private
 * Never discuss symbols or code unless you can already find it on the Internet
 * There may well be licensing implications to consider with code
+* If you're uncomfortable to cite the model and promot, you probably ought not to be doing it
 * Lab access is critical
 * Understanding of threat model and trust boundaries needs to be part of the input
 * Cost should be a consideration
