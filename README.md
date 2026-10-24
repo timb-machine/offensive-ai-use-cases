@@ -56,7 +56,7 @@ No.
 
 ## Ideas for how and where AI may help in offensive activities
 
-| Software type                    | Threat models | OSINT | Red team | Vulnerability scans | Source code reviews | Build reviews | Attack surface | Application testing | Reverse engineering |
+| Software type                   | Threat models | OSINT | Red team | Vulnerability scans | Source code reviews | Build reviews | Attack surface | Application testing | Reverse engineering |
 |---------------------------------|---------------|-------|----------|---------------------|---------------------|---------------|----------------|---------------------|---------------------|
 | Open source                     | X             | X     | X        | X                   | X                   | X             | X              | X                   | X                   |
 | Closed source (internet facing) | X             | X     | X        | X                   |                     | X             | X              | X                   | X                   |
